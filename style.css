@@ -26,6 +26,25 @@ html, body {
     padding: 0 !important;
 }
 
+.bg-img-1 {
+    background-image: url("img/idoso.jpg");
+}
+
+.bg-img-2 {
+    background-image: url("img/idoso2.jpg");
+}
+
+.bg-img-3 {
+    background-image: url("img/idoso3.jpg");
+}
+
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 #carouselExampleDark .carousel-inner, #carouselExampleDark .carousel-item {
     height: 75vh;
 
@@ -95,15 +114,29 @@ html, body {
     border-top: 2px solid #198754;
     width: 15%;
     position: absolute;
-    top: 60px;
+    top: 65px;
     left: 42.5%;
 }
 
 .about-title{
-    color: #198754;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* CARD AREA */
+
+.card {
+    
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.card-body {
+    text-align: center;
 }
 
 #about-list{
@@ -132,6 +165,9 @@ html, body {
 }
 
 /* SERVIÇOS */
+#services-area {
+    background-color: #F9F9F9;
+}
 
 .service-box {
     text-align: center;
@@ -161,6 +197,8 @@ html, body {
 
 #contact-area{
     text-align: center;
+    background-color: #F9F9F9;
+
 }
 
 .contact-box{
