@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lora:ital,wght@1,700&display=swap');
+
+/* GERAIS */
+
+body{
+    font-family: 'Crimson Text', serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p,li{
+    font-size: 14px;
+}
+html, body {
+    height: 100%;
+}
+
+/* SLIDER (CAROUSEL) */
+.container-fluid {
+    padding: 0 !important;
+}
+
+#carouselExampleDark .carousel-inner, #carouselExampleDark .carousel-item {
+    height: 75vh;
+
+}
+
+
+#carouselExampleDark .carousel-caption{
+    top: 40%;
+}
+
+#carouselExampleDark .carousel-caption h5 {
+     font-size: 45px;
+     margin-bottom: 25px;
+}
+
+#carouselExampleDark .carousel-caption p {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+.main-btn{
+    background-color: #198754;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: .9s;
+}
+.main-btn:hover {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #198754;
+
+}
+
+#carouselExampleDark .carousel-indicators .active {
+    background-color: #198754;    
+}
+
+/* ÁREA SOBRE */
+
+#about-area{
+    background-color: #F9F9F9;
+}
+
+#about-area p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.main-title{
+    color: #198754;
+    margin: 0 0 65px 0;
+    font-size: 38px;
+    text-align: center;
+    position: relative;
+}
+.main-title::after {
+    content: "";
+    border-top: 2px solid #198754;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    color: #198754;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    margin-right: 13px !important;
+}
+
+#valores-list{
+    list-style:circle;
+    padding-left: 35px;
+}
+
+#valores-list li {
+    line-height: 22 px;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
+/* SERVIÇOS */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .4s;   
+}
+
+.service-box i {
+    font-size: 40px;
+    margin-bottom: 18px;
+    color: #212529;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #ff0000;
+}
+
+/* FOOTER */
+
+#contact-area{
+    text-align: center;
+}
+
+.contact-box{
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #198754;
+}
+
+.contact-box i {
+   color: #198754 ;
+   border: 1px solid #198754 ;
+   border-radius: 50%;
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #198754 ;
+}
+
+/* COPY */
+
+#copy-area {
+    background-color: #F9F9F9;
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #212529;
+    text-decoration: none;
+} 
+
+#copy-area .container a:hover {
+    color: #198754;
+}
